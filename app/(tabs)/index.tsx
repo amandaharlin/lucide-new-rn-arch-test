@@ -4,6 +4,7 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { GitMerge, Sparkles } from 'lucide-react-native';
 
 export default function HomeScreen() {
   return (
@@ -17,6 +18,8 @@ export default function HomeScreen() {
       }>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome!</ThemedText>
+        <Sparkles color='purple' /> 
+        <GitMerge color='purple' />
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
